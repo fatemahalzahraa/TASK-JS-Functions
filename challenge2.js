@@ -54,8 +54,8 @@ oddsSmallerThan(15)
 /**
  * squareOrDouble(n):
  * - receives a number n
- * - returns its square if it's odd n ** 2
- * - returns its double if it's even
+ * - returns its square if it's odd n*n
+ * - returns its double if it's even 
  *
  * e.g.
  * squareOrDouble(16) -> 32
@@ -63,7 +63,7 @@ oddsSmallerThan(15)
  */
 function squareOrDouble(n) {
   if (isOdd) {
-    console.log(n**2)
+    console.log(n*2)
   }
   else {
     console.log(n*n)
