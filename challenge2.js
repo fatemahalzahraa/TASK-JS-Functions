@@ -44,15 +44,17 @@ isOdd(20)
  * oddsSmallerThan(15) -> 7
  */
 function oddsSmallerThan(n) {
+  console.log((n-1) /2)
+}
+oddsSmallerThan(7)
+oddsSmallerThan(15)
   
-  }
-  // Your code here
 
 
 /**
  * squareOrDouble(n):
  * - receives a number n
- * - returns its square if it's odd
+ * - returns its square if it's odd n ** 2
  * - returns its double if it's even
  *
  * e.g.
@@ -60,5 +62,12 @@ function oddsSmallerThan(n) {
  * squareOrDouble(9) -> 81
  */
 function squareOrDouble(n) {
-  // Your code here
+  if (isOdd) {
+    console.log(n**2)
+  }
+  else {
+    console.log(n*n)
+  }
 }
+squareOrDouble(16)
+squareOrDouble(9)
